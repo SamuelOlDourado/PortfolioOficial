@@ -431,7 +431,8 @@ header.scrolled {
 .project-links a {
     text-decoration: none;
     color: var(--branco);
-    border: 1px solid var(--dourado-principal);
+    border: var(--borda-suave);
+    background-color: #05030f3d;
     padding: 10px 22px;
     border-radius: 6px;
     transition: .3s;
