@@ -3,229 +3,194 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfólio - Samuel Dourado</title>
+    <title>Samuel Dourado | Desenvolvedor Web</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800;900&family=Pixelify+Sans:wght@500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/webp" href="img/topoGuia.png">
+    <meta name="description" content="Portfólio de Samuel Dourado, desenvolvedor web focado em criar aplicações modernas e responsivas com HTML, CSS, JavaScript, Python, Flask e PostgreSQL.">
 </head>
+
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#inicio">
+                    <img src="img/SD.png" width="50" alt="Logo de Samuel Dourado">
+                </a>
 
-   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu de navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <a class="navbar-brand" href="#inicio">
-                <img src="img/SD.png" width="50px" alt="Logo">
-            </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#inicio">Início</a>
+                        </li>
 
-            <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#inicio">
-                            Inicio
-                        </a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">
-                            Sobre
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#habilidades">
-                            Habilidades
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projetos">
-                            Projetos
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">
-                            Contato
-                        </a>
-                    </li>
-
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+    </header>
 
-        </div>
-    </nav>
-</header>
 
     <section class="banner-section" id="inicio">
         <video class="video-banner" autoplay muted loop playsinline width="100%">
             <source src="video/DesktopBannerVideo.mp4" type="video/mp4" media="(min-width: 769px)">
             <source src="video/mobileBannerVideo.mp4" type="video/mp4" media="(max-width: 768px)">
         </video>
-
         <div class="banner-overlay"></div>
     </section>
+
 
     <section class="about-section" id="sobre">
 
         <div class="container">
-
             <h2 class="titulo-secao">MINHA FICHA</h2>
-
             <div class="about-card row align-items-center g-4">
-
                 <div class="about-info col-lg-8">
                     <div class="dados">
-                        <p><span>Nome</span> Samuel de Oliveira Dourado</p>
+                        <p> <span>Nome</span> Samuel de Oliveira Dourado</p>
+
                         <p><span>Título</span> Desenvolvedor Web</p>
-                        <p><span>Formação</span> Técnico em Analise e Desenvolvimento de sistemas</p>
+
+                        <p><span>Formação</span> Técnico em Análise e Desenvolvimento de Sistemas</p>
+
                         <p><span>Local</span> Penápolis, SP - Brasil</p>
-                        <p><span>Status</span> <span class="status">● Disponível para oportunidades</span></p>
+
+                        <p>
+                            <span>Status</span>
+                            <span class="status">● Disponível para oportunidades</span>
+                        </p>
                     </div>
 
                     <div class="linha"></div>
-
                     <p class="descricao">
                         Estudante de Engenharia de Software e técnico em Desenvolvimento de Sistemas pelo SENAI,
                         ainda no começo da jornada, mas já apaixonado por transformar ideias em telas que funcionam
                         de verdade. Gosto de pensar em cada interface antes de codar e de aprender um pouco mais a cada
                         projeto que construo.
                     </p>
-
                     <div class="linha"></div>
+
                 </div>
 
                 <div class="about-photo col-lg-4">
-                    <img src="img/fotoS.webp" alt="Samuel Dourado">
+                    <img src="img/fotoS.webp" alt="Foto de Samuel Dourado">
                 </div>
-
             </div>
+
 
             <div class="skills-area" id="habilidades">
 
                 <h2>Habilidades e Tecnologias</h2>
-
                 <div class="skills-category">
                     <h3>Front-end</h3>
-
                     <div class="skills-grid">
 
                         <div class="tech-item html">
                             <span class="tech-name">HTML</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
+                            <img class="tech-icon"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Ícone do HTML5">
                         </div>
 
                         <div class="tech-item css">
                             <span class="tech-name">CSS</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Ícone do CSS3">
                         </div>
 
                         <div class="tech-item js">
                             <span class="tech-name">JavaScript</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Ícone do JavaScript">
                         </div>
 
                         <div class="tech-item bootstrap">
                             <span class="tech-name">Bootstrap</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Ícone do Bootstrap">
                         </div>
 
                     </div>
                 </div>
+
 
                 <div class="skills-category">
 
                     <h3>Back-end</h3>
-
                     <div class="skills-grid">
 
                         <div class="tech-item python">
                             <span class="tech-name">Python</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Ícone do Python">
                         </div>
 
                         <div class="tech-item flask">
                             <span class="tech-name">Flask</span>
-                            <img class="tech-icon"
-                                src="https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=webp&color=FFFFFF">
+                            <img class="tech-icon" src="https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=webp&color=FFFFFF" alt="Ícone do Flask">
                         </div>
 
                         <div class="tech-item postgres">
                             <span class="tech-name">PostgreSQL</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="Ícone do PostgreSQL">
                         </div>
 
                         <div class="tech-item sqlite">
                             <span class="tech-name">SQLite</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="Ícone do SQLite">
                         </div>
-
                     </div>
-
                 </div>
+
 
                 <div class="skills-category">
 
                     <h3>Ferramentas</h3>
-
                     <div class="skills-grid">
 
                         <div class="tech-item figma">
                             <span class="tech-name">Figma</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Ícone do Figma">
                         </div>
 
                         <div class="tech-item flask">
                             <span class="tech-name">GitHub</span>
-                            <img class="tech-icon"
-                                src="https://img.icons8.com/?size=100&id=62856&format=webp&color=FFFFFF">
+                            <img class="tech-icon" src="https://img.icons8.com/?size=100&id=62856&format=webp&color=FFFFFF" alt="Ícone do GitHub">
                         </div>
 
                         <div class="tech-item css">
                             <span class="tech-name">VS Code</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Ícone do Visual Studio Code">
                         </div>
-
 
                         <div class="tech-item pycharm">
                             <span class="tech-name">PyCharm</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" />
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" alt="Ícone do PyCharm">
                         </div>
-
 
                         <div class="tech-item canva">
                             <span class="tech-name">Canva</span>
-                            <img class="tech-icon"
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="Ícone do Canva">
                         </div>
-
                     </div>
-
                 </div>
 
             </div>
@@ -238,20 +203,14 @@
     <section class="projects-section" id="projetos">
 
         <div class="container">
-
             <h2 class="titulo-secao">PROJETOS</h2>
-
-            <p class="projects-desc">
-                Alguns dos projetos que desenvolvi ao longo da minha jornada acadêmica e profissional.
-            </p>
+            <p class="projects-desc">Alguns dos projetos que desenvolvi ao longo da minha jornada acadêmica e profissional.</p>
 
             <div class="project-filter">
-
                 <button class="filter-btn active" data-filter="all">Todos</button>
                 <button class="filter-btn" data-filter="frontend">Front-end</button>
                 <button class="filter-btn" data-filter="backend">Full-Stack</button>
                 <button class="filter-btn" data-filter="design">UI Design</button>
-
             </div>
 
             <div class="projects-grid row g-4">
@@ -259,7 +218,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col frontend">
                     <div class="project-card frontend">
-                        <img src="img/projetos/Barbearia-print.webp" alt="Nakamura's Barbearia">
+                        <img src="img/projetos/Barbearia-print.webp" alt="Captura de tela da landing page da Nakamura's Barbearia">
                         <div class="project-content">
                             <h3>Nakamura's Barbearia</h3>
                             <p>
@@ -275,6 +234,7 @@
                                 <span>Flask</span>
                                 <span>Bootstrap</span>
                             </div>
+
                             <div class="project-links">
                                 <a href="https://github.com/SamuelOlDourado/lend-page-Barbearia" target="_blank">GitHub</a>
                                 <a href="https://lend-page-barbearia.vercel.app/" target="_blank">Visualizar</a>
@@ -286,7 +246,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col backend">
                     <div class="project-card backend">
-                        <img src="img/projetos/formaliza-print.webp" alt="FormalizAI">
+                        <img src="img/projetos/formaliza-print.webp" alt="Captura de tela da aplicação web FormalizAI">
                         <div class="project-content">
                             <h3>FormalizAI</h3>
                             <p>
@@ -313,12 +273,12 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col backend">
                     <div class="project-card backend">
-                        <img src="img/projetos/gerai-print.webp" alt="GerAI">
+                        <img src="img/projetos/gerai-print.webp" alt="Captura de tela da aplicação web GerAI">
                         <div class="project-content">
                             <h3>GerAI</h3>
                             <p>
                                 GerAI é uma aplicação web que utiliza Inteligência Artificial para gerar páginas HTML,
-                                CSS e JavaScript a partir de segurança em linguagem natural. Desenvolvido com Flask e
+                                CSS e JavaScript a partir de descrições em linguagem natural. Desenvolvido com Flask e
                                 API Groq, permite criar protótipos rapidamente com pré-visualização em tempo real.
                             </p>
                             <div class="project-tech">
@@ -339,9 +299,9 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col frontend">
                     <div class="project-card frontend">
-                        <img src="img/projetos/devclube-print.webp" alt="Pagina DevClub">
+                        <img src="img/projetos/devclube-print.webp" alt="Captura de tela da landing page do DevClub">
                         <div class="project-content">
-                            <h3>Pagina DevClub</h3>
+                            <h3>Página DevClub</h3>
                             <p>
                                 Landing page não oficial desenvolvida para divulgação do curso do DevClub. O projeto
                                 destaca responsividade, animações, design moderno e boas práticas de desenvolvimento
@@ -361,14 +321,15 @@
                     </div>
                 </div>
 
+
                 <div class="col-12 col-md-6 col-lg-4 project-col frontend">
                     <div class="project-card frontend">
-                        <img src="img/projetos/streamisnet-print.webp" alt="Streamis">
+                        <img src="img/projetos/streamisnet-print.webp" alt="Captura de tela do site fictício da Streamis Net">
                         <div class="project-content">
                             <h3>Streamis Net</h3>
                             <p>
                                 Site fictício da provedora de internet "Streamis Net". Possui layout moderno, responsivo
-                                e flexível como serviços, planos, equipe, depoimentos e formulário de contato. Projeto
+                                e flexível, com serviços, planos, equipe, depoimentos e formulário de contato. Projeto
                                 voltado para portfólio web, com foco em organização, design limpo e experiência do
                                 usuário.
                             </p>
@@ -389,13 +350,14 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col frontend">
                     <div class="project-card frontend">
-                        <img src="img/projetos/coversor-print.webp" alt="Figma">
+                        <img src="img/projetos/coversor-print.webp" alt="Captura de tela do conversor de moedas ConvertaJá">
                         <div class="project-content">
                             <h3>ConvertaJá</h3>
                             <p>
                                 ConvertaJá é um projeto simples desenvolvido com JavaScript que permite converter
                                 valores em Real (BRL) para Euro, Dólar e Libra. Ele utiliza a API pública
                                 Frankfurter.app, que fornece taxas de câmbio atualizadas.
+                            </p>
                             <div class="project-tech">
                                 <span>HTML</span>
                                 <span>CSS</span>
@@ -413,7 +375,7 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col backend">
                     <div class="project-card backend">
-                        <img src="img/projetos/vilao-print.webp" alt="Barbearia">
+                        <img src="img/projetos/vilao-print.webp" alt="Captura de tela do sistema Cadastro de Vilões">
                         <div class="project-content">
                             <h3>Cadastro de Vilões</h3>
                             <p>
@@ -438,13 +400,13 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col design">
                     <div class="project-card design">
-                        <img src="img/projetos/Dogdodoi-print.webp" alt="Barbearia">
+                        <img src="img/projetos/Dogdodoi-print.webp" alt="Protótipo da landing page da clínica veterinária Dog Dodói">
                         <div class="project-content">
-                            <h3>landing page Dog dodoi</h3>
+                            <h3>Landing Page Dog Dodói</h3>
                             <p>
-                                Dog Dodói é uma landing page responsiva para uma clínica veterinária fictícia. O projeto 
-                                foi desenvolvido com foco em organização das informações, identidade visual e uma experiência 
-                                agradável para o usuário.
+                                Dog Dodói é uma landing page responsiva para uma clínica veterinária fictícia. O projeto
+                                foi desenvolvido com foco em organização das informações, identidade visual e uma
+                                experiência agradável para o usuário.
                             </p>
                             <div class="project-tech">
                                 <span>Figma</span>
@@ -460,12 +422,12 @@
 
                 <div class="col-12 col-md-6 col-lg-4 project-col frontend">
                     <div class="project-card frontend">
-                        <img src="img/projetos/Game-stackPrint.webp" alt="GameStack">
+                        <img src="img/projetos/Game-stackPrint.webp" alt="Captura de tela do projeto GameStack">
                         <div class="project-content">
                             <h3>GameStack</h3>
                             <p>
                                 Protótipo visual de uma aplicação web voltada para o gerenciamento e divulgação de
-                                projetos de jogos. O sistema de conta com autenticação de usuários, CRUD de projetos,
+                                projetos de jogos. O sistema conta com autenticação de usuários, CRUD de projetos,
                                 sessões, busca, paginação e integração com banco de dados PostgreSQL.
                             </p>
                             <div class="project-tech">
@@ -474,16 +436,17 @@
                                 <span>Bootstrap</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://github.com/SamuelOlDourado/GameStack-project-visual target="_blank"">GitHub</a>
+                                <a href="https://github.com/SamuelOlDourado/GameStack-project-visual" target="_blank">GitHub</a>
                                 <a href="https://game-stack-project.vercel.app/" target="_blank">Visualizar</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
+
                 <div class="col-12 col-md-6 col-lg-4 project-col frontend">
                     <div class="project-card frontend">
-                        <img src="img/projetos/vovo-print.webp" alt="Projeto Vovô Conectado">
+                        <img src="img/projetos/vovo-print.webp" alt="Captura de tela do site educativo Vovô Conectado">
                         <div class="project-content">
                             <h3>Vovô Conectado</h3>
                             <p>
@@ -505,29 +468,23 @@
                     </div>
                 </div>
 
-
             </div>
-
         </div>
 
     </section>
 
+
     <section class="education-section" id="formacao">
-
         <div class="container">
-
             <h2 class="titulo-secao">FORMAÇÃO & CERTIFICAÇÕES</h2>
-
             <p class="education-subtitle">
                 Minha trajetória acadêmica e algumas certificações que contribuíram para meu desenvolvimento
                 profissional.
             </p>
-
             <div class="education-wrapper row g-4">
 
                 <div class="education-column col-md-6">
                     <h3>Formação</h3>
-
                     <div class="education-card">
                         <i class="bi bi-mortarboard-fill"></i>
                         <div>
@@ -536,6 +493,7 @@
                             <p>2026 - Atual</p>
                         </div>
                     </div>
+
 
                     <div class="education-card">
                         <i class="bi bi-laptop-fill"></i>
@@ -550,7 +508,6 @@
                 <div class="education-column col-md-6">
                     <h3>Certificações</h3>
 
-
                     <div class="education-card">
                         <i class="bi bi-award-fill"></i>
                         <div>
@@ -558,7 +515,6 @@
                             <span>Cisco Networking Academy</span>
                         </div>
                     </div>
-
 
 
                     <div class="education-card">
@@ -569,8 +525,6 @@
                         </div>
                     </div>
 
-
-
                     <div class="education-card">
                         <i class="bi bi-award-fill"></i>
                         <div>
@@ -580,7 +534,6 @@
                     </div>
 
 
-
                     <div class="education-card">
                         <i class="bi bi-award-fill"></i>
                         <div>
@@ -588,52 +541,53 @@
                             <span>SENAI</span>
                         </div>
                     </div>
-                    
-
                 </div>
 
             </div>
-
         </div>
     </section>
 
     <section class="contact-section" id="contato">
-
         <div class="container">
-
             <h2 class="titulo-secao">ENTRE EM CONTATO</h2>
-
             <p class="contact-subtitle">
                 Gostou do meu trabalho? Estou disponível para oportunidades,
                 freelances e novos desafios. Será um prazer conversar com você.
             </p>
-
             <a href="mailto:samuel.do.dourado@gmail.com" class="contact-button">
                 <i class="bi bi-envelope-fill"></i>
+
                 Enviar um e-mail
+
             </a>
+
 
             <div class="contact-grid">
 
-                <a href="https://github.com/SamuelOlDourado" target="_blank" class="contact-card">
+                <a href="https://github.com/SamuelOlDourado" target="_blank" rel="noopener noreferrer"
+                    class="contact-card">
                     <i class="bi bi-github"></i>
                     <h3>GitHub</h3>
                     <p>Veja meus projetos e códigos.</p>
                 </a>
 
-                <a href="https://www.linkedin.com/in/samuel-dourado-dev/" target="_blank" class="contact-card">
+
+                <a href="https://www.linkedin.com/in/samuel-dourado-dev/" target="_blank" rel="noopener noreferrer"
+                    class="contact-card">
                     <i class="bi bi-linkedin"></i>
                     <h3>LinkedIn</h3>
                     <p>Vamos nos conectar.</p>
                 </a>
 
-                <a href="https://wa.me/5518996550738" target="_blank" class="contact-card">
+
+                <a href="https://wa.me/5518996550738" target="_blank" rel="noopener noreferrer" class="contact-card">
                     <i class="bi bi-whatsapp"></i>
                     <h3>WhatsApp</h3>
                     <p>Converse comigo rapidamente.</p>
                 </a>
 
-                <a href="doc/CurriculoS.pdf" target="_blank" class="contact-card">
+
+                <a href="doc/CurriculoS.pdf" target="_blank" rel="noopener noreferrer" class="contact-card">
                     <i class="bi bi-file-earmark-person-fill"></i>
                     <h3>Currículo</h3>
                     <p>Baixar currículo em PDF.</p>
@@ -643,25 +597,33 @@
         </div>
     </section>
 
-    <a class="whatsapp-float" href="https://wa.me/5518996550738" target="_blank" rel="noopener noreferrer"
-        aria-label="Falar no WhatsApp">
+
+    <a class="whatsapp-float" href="https://wa.me/5518996550738" target="_blank" rel="noopener noreferrer" aria-label="Falar comigo pelo WhatsApp">
+
         <i class="bi bi-whatsapp"></i>
+
     </a>
 
     <footer class="terminal-footer">
         <div class="container terminal-box">
-            <span class="terminal-line"><span class="terminal-prompt">Status:</span> <span class="status">●
-                    Online</span></span>
-            <span class="terminal-line"><span class="terminal-prompt">Build:</span> v2.0</span>
+
+            <span class="terminal-line">
+                <span class="terminal-prompt">Status:</span>
+                <span class="status">● Online</span>
+            </span>
+
+            <span class="terminal-line">
+                <span class="terminal-prompt">Build:</span>
+                v2.0
+            </span>
+
             <span class="terminal-line">Samuel Dourado &copy; 2026</span>
+
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-
     <script>
         window.va = window.va || function () {
             (window.vaq = window.vaq || []).push(arguments);
@@ -669,5 +631,4 @@
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
-
 </html>
